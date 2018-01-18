@@ -1,0 +1,86 @@
+/*Lin, Emily | DES157 W18*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(#00c6c6, #008b8b, #005050, #002929);
+  /*background: #00b2b2;*/
+  color: white;
+  font-family: "Roboto";
+}
+
+h1 {
+  /*font-family: "Great Vibes";*/
+  font-size: 60px;
+  font-weight: bolder;
+  margin-top: 100px;
+  margin-left: 15%;
+}
+
+#mySketch {
+  width: 100%;
+  max-width: 800px;
+  max-height: 250px;
+  margin-top: 10px;
+  margin-left: 15%;
+  border: 1px white solid;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  opacity: 0.3;
+  height: 30px;
+  width: 30px;
+}
+
+a:hover {
+  color: #b1cee9;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+#column1, #column2 {
+  float: left;
+  margin-left: 15.5%;
+  margin-top: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 25px;
+  margin-left: 15%;
+}
+
+ul, li {
+  list-style-type: none;
+  margin-top: 10px;
+  display: block;
+}
