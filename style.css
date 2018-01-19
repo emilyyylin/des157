@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@charset "UTF-8";
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -18,9 +19,9 @@ html {
 
 body {
   background: linear-gradient(#00c6c6, #008b8b, #005050, #002929);
-  //background: #00b2b2;
+  /*background: #00b2b2;*/
   color: white;
-//  font-family: "Roboto";
+  /*font-family: "Roboto";*/
   font-family: 'Raleway', sans-serif;
 }
 
