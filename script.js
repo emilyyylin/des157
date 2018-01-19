@@ -1,4 +1,3 @@
-//Lin, Emily | DES157 W18
 console.log("this is script.js comment");
 
 var directionX=1, directionY=0;
