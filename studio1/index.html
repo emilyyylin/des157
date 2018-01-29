@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emily Lin | Mad Libs</title>
+  <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+  <link <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- ===== START MAIN CONTENT ===== -->
+
+<body>
+  <header>
+    <h1>mad libs 2.0</h1>
+  </header>
+
+  <article>
+    <form name="f">
+      <div>
+        <label for="day">DAY OF WEEK: </label>
+        <input type="text" name="day" required>
+      </div>
+
+      <div>
+        <label for="adj1">ADJECTIVE: (more negative)</label>
+        <input type="text" name="adj1" required>
+      </div>
+
+      <div>
+        <label for="className">CLASS: </label>
+        <input type="text" name="className" required>
+      </div>
+
+      <div>
+        <label for="verb1">VERB (ing): </label>
+        <input type="text" name="verb1" required>
+      </div>
+
+      <div>
+        <label for="loca1">LOCATION: </label>
+        <input type="text" name="loca1" required>
+      </div>
+
+      <div>
+        <label for="vehicle">VEHICLE OF CHOICE: </label>
+        <input type="text" name="vehicle" required>
+      </div>
+
+      <div>
+        <input type="reset" value="reset" />
+        <input type="submit" value="submit" />
+      </div>
+
+    </form>
+  </article>
+
+  <section id="results">
+    <p id="myMsg" class="hide"></p>
+  </section>
+
+  <footer>
+    <ul>
+      <li>
+        <a href="mailto:emwlin@ucdavis.edu"><img src="../images/email_icon.png" alt="Email Icon" width=30 height=30></a>
+        <a href="https://www.linkedin.com/in/emilyyylin/"><img src="../images/linkedin_icon.png" alt="LinkedIn Icon" width=30 height=30></a>
+        <a href="#"><img src="../images/github_icon.png" alt="Github Icon" height=30 width=30></a>
+        <a href="https://validator.w3.org/check?uri=referer"><img src="../images/html_icon.png" alt="Validate HTML Icon" width=30 height=30></a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="../images/css_icon.png" alt="Validate CSS Icon" width=30 height=30></a>
+        <a href="../index.html"><img src="../images/home_icon.png" alt="Home" width=30 height=30></a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
