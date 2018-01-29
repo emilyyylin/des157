@@ -23,6 +23,10 @@ body {
   display: block;
 }
 
+.highlight{
+  background-color: yellow;
+}
+
 article {
   float: left;
   padding-left: 30px;
@@ -113,25 +117,34 @@ section p {
 footer{
   position: fixed;
   bottom: 0;
-  margin-left: 15%;
+  margin-left: 1%;
   margin-bottom: 25px;
+  color: deeppink;
+  width: 50%;
 }
 
-footer img {
-  opacity: 0.3;
-  padding-right: 20px;
+a:link {
+  text-decoration: none;
+  padding-left: 3%;
 }
 
-footer img:hover {
-  opacity: 1;
+a:visited {
+  color: darkgray;
 }
 
-footer img:last-child{
+a:hover {
+  color: deeppink;
+}
+
+a:active {
+  color: darkgray;
+}
+
+a: last-child{
   margin:auto;
 }
 
 ul, li {
   list-style-type: none;
   margin-top: 10px;
-  display: block;
 }
