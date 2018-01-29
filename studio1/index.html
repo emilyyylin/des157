@@ -16,50 +16,52 @@
     <h1>mad libs 2.0</h1>
   </header>
 
-  <article>
-    <h2>fill in the blanks!</h2>  <form name="f">
-      <div>
-        <label>NAME: </label>
-        <input type="text" name="yourName" required>
-      </div>
+<article>
+    <h2>fill in the blanks!</h2>
+    <form name="f">
 
-      <div>
-        <label>ADJECTIVE: (more negative)</label>
-        <input type="text" name="adj1" required>
-      </div>
+    <div>
+      <label for="yourName">NAME</label>
+      <input type="text" name="yourName" required>
+    </div>
 
-      <div>
-        <label>CLASS: </label>
-        <input type="text" name="className" required>
-      </div>
+    <div>
+      <label for="adj1">ADJECTVE: (more negative)</label>
+      <input type="text" name="adj1" required>
+    </div>
 
-      <div>
-        <label>VERB (ing): </label>
-        <input type="text" name="verb1" required>
-      </div>
+    <div>
+      <label for="className">CLASS:</label>
+      <input type="text" name="className" required>
+    </div>
 
-      <div>
-        <label>LOCATION: </label>
-        <input type="text" name="loca1" required>
-      </div>
+    <div>
+      <label for="verb1">VERB (ing):</label>
+      <input type="text" name="verb1" required>
+    </div>
 
-      <div>
-        <label>ANIMAL: </label>
-        <input type="text" name="animal" required>
-      </div>
+    <div>
+      <label for="loca1">LOCATION:</label>
+      <input type="text" name="loca1" required>
+    </div>
 
-      <div>
-        <label>VEHICLE OF CHOICE: </label>
-        <input type="text" name="vehicle" required>
-      </div>
+    <div>
+      <label for="animal">ANIMAL:</label>
+      <input type="text" name="animal" required>
+    </div>
 
-      <div>
-        <input type="reset" value="reset" />
-        <input type="submit" value="submit" />
-      </div>
+    <div>
+      <label for="vehicle">VEHICLE OF CHOICE: </label>
+      <input type="text" name="vehicle" required>
+    </div>
+
+    <div>
+      <input type="reset" value="reset" />
+      <input type="submit" value="submit" />
+    </div>
 
     </form>
-  </article>
+</article>
 
   <div id="results">
     <p id="myMsg" class="hide"></p>

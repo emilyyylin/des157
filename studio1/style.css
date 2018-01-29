@@ -23,11 +23,6 @@ body {
   margin-left: 5%;
 }
 
-article {
-  float: left;
-  padding-left: 30px;
-}
-
 h1 {
   position: relative;
   margin-top: 30px;
@@ -41,6 +36,8 @@ h2{
   margin-left: 2%;
 }
 article {
+  float: left;
+  padding-left: 30px;
   position: relative;
   margin-top: -20px;
   top: 3%;
@@ -116,9 +113,9 @@ footer{
   position: fixed;
   bottom: 0;
   margin-left: 1%;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   color: deeppink;
-  width: 50%;
+  width: 100%;
 }
 
 a:link {
