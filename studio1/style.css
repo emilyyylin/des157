@@ -23,10 +23,6 @@ body {
   display: block;
 }
 
-.highlight{
-  background-color: yellow;
-}
-
 article {
   float: left;
   padding-left: 30px;
@@ -65,7 +61,7 @@ label {
 
 input[type="text"] {
   width: 35%;
-  height: 10%
+  height: 10%;
   padding: 3%;
   border-color:black;
   border-radius: 3px;
@@ -140,7 +136,7 @@ a:active {
   color: darkgray;
 }
 
-a: last-child{
+a:last-child{
   margin:auto;
 }
 
