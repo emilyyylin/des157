@@ -90,30 +90,24 @@ input[type="submit"] {
   color: white;
 }
 
-section p {
+#myMsg{
   float: right;
-  margin-top: -50%;
-  margin-left: 30px;
+  margin-top: -55%;
+  margin-left: 40px;
   padding-top: 2%;
-  width: 50%;
+  width: 60%;
   font-size: 30px;
   text-align: left;
   line-height: 28px;
   color: black;
 }
 
-
-
-
-
-
-
 /*Everything below is personal footer, dont need to touch*/
 footer{
   position: fixed;
   bottom: 0;
   margin-left: 1%;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   color: deeppink;
   width: 100%;
 }
