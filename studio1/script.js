@@ -1,14 +1,13 @@
-console.log('reading');
+"use strict";
 
-//document.addEventListener("DOMContentLoaded", function(event) {
-  //  console.log("DOM fully loaded and parsed");
+console.log('reading');
 
 // capture the submit event
 document.f.onsubmit = processForm;
 document.f.onreset = clearForm;
 console.log("you're outside of processForm");
-// define process function
 
+// define process function
 function processForm() {
     console.log("you're inside processForm");
     // store form fields in variables
@@ -22,15 +21,15 @@ function processForm() {
     var vehicle = document.f.vehicle.value;
     console.log(yourName);
     var myMsg = document.getElementById("myMsg");
-    //print into message
 
-    myMsg.innerHTML="Dear Professor, <br> On <u>" + day + "</u>, I was in a <u>" + adj1 + "</u> accident; that's why I was late to <u>" + className + "</u>. While I was <u>" + verb1 + "</u> to the <u>" + loca1 + "</u>, a <u>" + vehicle + "</u> knocked me off the ground, and I flew at least 2 feet in front of me. All of my homework scattered, and I saw a <u>" + animal + "</u> eat it. Then the <u>" + vehicle + "</u> also ran over my laptop. That's why I was really late and didn't have my homework. <br> Sorry, <u>" + yourName + "</u>";
+  //print into message
+    myMsg.innerHTML="Dear Professor, <br><br> On <u>" + day + "</u>, I was in a <u>" + adj1 + "</u> accident; that's why I was late to <u>" + className + "</u>. While I was <u>" + verb1 + "</u> to the <u>" + loca1 + "</u>, a <u>" + vehicle + "</u> knocked me off the ground, and I flew at least 2 feet in front of me. All of my homework scattered, and I saw a <u>" + animal + "</u> eat it. Then the <u>" + vehicle + "</u> also ran over my laptop. That's why I was really late and didn't have my homework. <br><br> Sorry, <br><u>" + yourName + "</u>";
 
     myMsg.className = "show";
 
    return false;
-
 }
+
 //clear clearForm
 function clearForm(){
   console.log("you're inside clearForm");

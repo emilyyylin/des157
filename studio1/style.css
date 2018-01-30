@@ -32,19 +32,22 @@ h1 {
   color: deeppink;
 }
 
-h2{
-  margin-left: 2%;
-}
 article {
   float: left;
   padding-left: 30px;
   position: relative;
-  margin-top: -20px;
+  margin-top: -25px;
   top: 3%;
   width: 80%;
   min-width: 700px;
   padding: 10px;
   color: black;
+}
+
+h2{
+  margin-left: 2%;
+  margin-top: -5%;
+  font-weight: lighter;
 }
 
 div {
@@ -65,8 +68,9 @@ input[type="text"] {
   border-color:black;
   border-radius: 3px;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 15px;
   color: black;
+  margin-top: -1%;
 }
 
 input[type="text"]:focus {
@@ -106,7 +110,6 @@ input[type="submit"] {
 footer{
   position: fixed;
   bottom: 0;
-  margin-left: 1%;
   margin-bottom: 1px;
   color: deeppink;
   width: 100%;
@@ -114,11 +117,11 @@ footer{
 
 a:link {
   text-decoration: none;
-  padding-left: 3%;
+  padding-left: 2%;
 }
 
 a:visited {
-  color: darkgray;
+  color: black;
 }
 
 a:hover {
@@ -126,7 +129,7 @@ a:hover {
 }
 
 a:active {
-  color: darkgray;
+  color: black;
 }
 
 a:last-child{
