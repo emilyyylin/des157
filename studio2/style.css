@@ -1,7 +1,38 @@
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 /*mobile phone*/
+h1{
+  margin-top: 5%;
+  font-size: 4em;
+}
 
+img{
+  vertical-align: middle;
+  margin: 0 auto;
+  padding: 3%;
+}
+
+}
+
+@media only screen and (min-width: 769px) {
+  h1{
+    margin-top: 5%;
+    font-size: 4em;
+  }
+
+  img{
+    vertical-align: middle;
+    padding: 3%;
+  }
+
+  #main{
+    float: center;
+    width: 100%;
+  }
+
+}
+
+/*General things*/
 h1{
   font-family: 'Patrick Hand', cursive;
   font-weight: lighter;
@@ -15,32 +46,21 @@ h1, h3{
   text-align: center;
 }
 
-img{
-  max-height: 400px;
-  width: auto;
-  margin: 0 auto;
-  display: block;
-  padding 7%;
-}
 
-}
-
-
-#items{
-  float: left;
-  position:absolute;
-}
-
-
-}
 /*Everything below is personal footer, dont need to touch*/
-footer{
+footer {
+  font-family: 'Roboto', sans-serif;
   position: fixed;
   bottom: 0;
   margin-bottom: 1px;
-  color: deeppink;
   width: 100%;
 }
+
+ul, li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
 
 a:link {
   text-decoration: none;
@@ -61,9 +81,4 @@ a:active {
 
 a:last-child{
   margin:auto;
-}
-
-ul, li {
-  list-style-type: none;
-  margin-top: 10px;
 }

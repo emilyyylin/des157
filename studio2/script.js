@@ -43,3 +43,25 @@ wasabiH.addEventListener('mouseout', function () {
     wasabiH.style.opacity = 1;
     wasabiH.src = 'images/wasabiH.png';
 });
+
+//hover for 5hr energy
+fivehrH.addEventListener('mouseover', function () {
+    fivehrH.style.opacity = 1;
+    fivehrH.src = 'images/fivehr.png';
+});
+
+fivehrH.addEventListener('mouseout', function () {
+    fivehrH.style.opacity = 1;
+    fivehrH.src = 'images/fivehrH.png';
+});
+
+//hover for tissue
+tissueH.addEventListener('mouseover', function () {
+    tissueH.style.opacity = 1;
+    tissueH.src = 'images/tissue.png';
+});
+
+tissueH.addEventListener('mouseout', function () {
+    tissueH.style.opacity = 1;
+    tissueH.src = 'images/tissueH.png';
+});
