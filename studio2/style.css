@@ -1,4 +1,7 @@
 
+@media only screen and (min-width: 768px) {
+/*mobile phone*/
+
 h1{
   font-family: 'Patrick Hand', cursive;
   font-weight: lighter;
@@ -12,25 +15,21 @@ h1, h3{
   text-align: center;
 }
 
-#bottle{
-  img: hover(src:
+img{
+  max-height: 400px;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  padding 7%;
 }
 
-
-@media only screen and (min-width: 768px) {
-/*mobile phone*/
+}
 
 
 #items{
   float: left;
   position:absolute;
 }
-
-img {
-  max-width:50%;
-  height: auto;
-}
-
 
 
 }
