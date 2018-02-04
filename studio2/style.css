@@ -1,0 +1,65 @@
+
+h1{
+  font-family: 'Patrick Hand', cursive;
+  font-weight: lighter;
+}
+
+h3{
+ font-family: 'Roboto', sans-serif;
+}
+
+h1, h3{
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+/*mobile phone*/
+
+
+#items{
+  float: left;
+  position:absolute;
+}
+
+img {
+  max-width:50%;
+  height: auto;
+}
+
+
+
+}
+/*Everything below is personal footer, dont need to touch*/
+footer{
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1px;
+  color: deeppink;
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  padding-left: 2%;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: deeppink;
+}
+
+a:active {
+  color: black;
+}
+
+a:last-child{
+  margin:auto;
+}
+
+ul, li {
+  list-style-type: none;
+  margin-top: 10px;
+}
