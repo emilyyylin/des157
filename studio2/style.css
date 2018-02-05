@@ -1,20 +1,27 @@
 
-@media only screen and (max-width: 768px) {
-/*mobile phone*/
+@media only screen and (max-width: 768px) {/*mobile phone*/
 h1{
   margin-top: 5%;
   font-size: 4em;
 }
 
+h3{
+  font-size: 1em;
+}
+
 img{
-  vertical-align: middle;
   margin: 0 auto;
   display: block;
   padding: 3%;
 }
 
-#bottleH, #wasabiH, #fivehrH, #tissueH{
+#bottleH, #wasabiH, #fivehrH{
   height: 10em;
+  width: auto;
+}
+
+#tissueH{
+  height: 8em;
   width: auto;
 }
 
@@ -26,37 +33,47 @@ img{
 }
 
 @media only screen and (min-width: 769px) {
-  body{
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+#container{
+  width: 80%;
+  margin-left: 15%;
+}
 
-  h1{
-    margin-top: 5%;
-    font-size: 4em;
-  }
+h1{
+  margin-top: 5%;
+  font-size: 4em;
+}
 
-  img{
-    display: inline-block;
-    vertical-align: middle;
-    padding: 3%;
-    margin: 0 auto;
-  }
-
-  #main{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    }
-
-  img:last-child{
-    margin: auto;
-  }
+img{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 3%;
+}
 
 
+#bottleH, #wasabiH, #fivehrH{
+  height: 10em;
+  width: auto;
+}
+
+#tissueH{
+  height: 8em;
+  width: auto;
+}
+
+#laptopH{
+  width: 8.5em;
+  height: auto;
+}
 }
 
 /*General things*/
+#container{
+  position: relative;
+}
+
+header{
+  margin: 0 auto;
+}
 h1{
   font-family: 'Patrick Hand', cursive;
   font-weight: lighter;
@@ -72,20 +89,18 @@ h1, h3{
 
 
 /*Everything below is personal footer, dont need to touch*/
-
 footer {
+  text-align: center;
   font-family: 'Roboto', sans-serif;
-  position: fixed;
+  font-size: 0.75em;
   bottom: 0;
-  margin-bottom: 1px;
+  position: fixed;
   width: 100%;
 }
 
 ul, li {
   list-style-type: none;
-  margin-top: 10px;
 }
-
 
 a:link {
   text-decoration: none;
