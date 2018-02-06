@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", function(event){
 var bottleH = document.getElementById('bottleH');
 var laptopH = document.getElementById('laptopH');
 var wasabiH = document.getElementById('wasabiH');
+var fivehrH = document.getElementById('fivehrH');
+var tissueH = document.getElementById('tissueH');
 var close1=document.getElementById('close1');
 var close2=document.getElementById('close2');
 var close3=document.getElementById('close3');
@@ -57,6 +59,26 @@ close2.addEventListener('click', function () {
   wasabiInfo.style.opacity=0;
 });
 
+//hover for 5hr energy
+fivehrH.addEventListener('mouseover', function () {
+    fivehrH.style.opacity = 1;
+    fivehrH.src = 'images/fivehr.png';
+});
+
+fivehrH.addEventListener('mouseout', function () {
+    fivehrH.style.opacity = 1;
+    fivehrH.src = 'images/fivehrH.png';
+});
+
+//5hr info
+fivehrH.addEventListener('click', function() {
+  fivehrInfo.style.opacity=1;
+});
+
+close4.addEventListener('click', function () {
+  fivehrInfo.style.opacity=0;
+});
+
 
 //hover for laptop
 laptopH.addEventListener('mouseover', function () {
@@ -76,26 +98,6 @@ laptopH.addEventListener('click', function() {
 
 close3.addEventListener('click', function () {
   laptopInfo.style.opacity=0;
-});
-
-//hover for 5hr energy
-fivehrH.addEventListener('mouseover', function () {
-    fivehrH.style.opacity = 1;
-    fivehrH.src = 'images/fivehr.png';
-});
-
-fivehrH.addEventListener('mouseout', function () {
-    fivehrH.style.opacity = 1;
-    fivehrH.src = 'images/fivehrH.png';
-});
-
-//5hr info
-fivehrH.addEventListener('click', function() {
-  fivehrInfo.style.opacity=1;
-});
-
-close4.addEventListener('click', function () {
-  fivehrInfo.style.opacity=0;
 });
 
 //hover for tissue
