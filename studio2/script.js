@@ -75,9 +75,12 @@ fivehrH.addEventListener('click', function() {
   fivehrInfo.style.opacity=1;
 });
 
-close4.addEventListener('click', function () {
+close3.addEventListener('click', function () {
   fivehrInfo.style.opacity=0;
 });
+
+
+
 
 
 //hover for laptop
@@ -96,9 +99,12 @@ laptopH.addEventListener('click', function() {
   laptopInfo.style.opacity=1;
 });
 
-close3.addEventListener('click', function () {
+close4.addEventListener('click', function () {
   laptopInfo.style.opacity=0;
 });
+
+
+
 
 //hover for tissue
 tissueH.addEventListener('mouseover', function () {
