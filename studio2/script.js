@@ -12,11 +12,11 @@ var laptopH = document.getElementById('laptopH');
 var wasabiH = document.getElementById('wasabiH');
 var fivehrH = document.getElementById('fivehrH');
 var tissueH = document.getElementById('tissueH');
-var close1=document.getElementById('close1');
-var close2=document.getElementById('close2');
-var close3=document.getElementById('close3');
-var close4=document.getElementById('close4');
-var close5=document.getElementById('close5');
+var close1 = document.getElementById('close1');
+var close2 = document.getElementById('close2');
+var close3 = document.getElementById('close3');
+var close4 = document.getElementById('close4');
+var close5 = document.getElementById('close5');
 
 
 //hover for bottle
@@ -58,6 +58,10 @@ wasabiH.addEventListener('click', function() {
 close2.addEventListener('click', function () {
   wasabiInfo.style.opacity=0;
 });
+
+
+
+
 
 //hover for 5hr energy
 fivehrH.addEventListener('mouseover', function () {
@@ -102,7 +106,6 @@ laptopH.addEventListener('click', function() {
 close4.addEventListener('click', function () {
   laptopInfo.style.opacity=0;
 });
-
 
 
 

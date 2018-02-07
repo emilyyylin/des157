@@ -47,10 +47,21 @@ img{
   max-width: 100%;
 }
 
-#bottleInfo, #wasabiInfo, #fivehrInfo, #laptopInfo, #tissueInfo{
+#bottleInfo{
   opacity:0;
 }
-
+#wasabiInfo{
+  opacity:0;
+}
+#fivehrInfo{
+  opacity:0;
+}
+#laptopInfo{
+  opacity:0;
+}
+#tissueInfo{
+  opacity:0;
+}
 
 aside{
   position: absolute;
@@ -112,6 +123,41 @@ img{
   width: 8.5em;
   height: auto;
 }
+
+#bottleInfo{
+  opacity:0;
+}
+#wasabiInfo{
+  opacity:0;
+}
+#fivehrInfo{
+  opacity:0;
+}
+#laptopInfo{
+  opacity:0;
+}
+#tissueInfo{
+  opacity:0;
+}
+
+aside{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%
+  height: 100%;
+  display: block;
+}
+
+aside p{
+  width:50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+
 }
 
 /*General things*/
