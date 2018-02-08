@@ -1,114 +1,53 @@
+/*General things*/
+#items{
+  position: relative;
+}
 
-@media only screen and (max-width: 768px) {/*mobile phone*/
+header{
+  margin: 0 auto;
+}
+
+/*TYPOGRAPHY RELATED STUFF-------------------------------------------------------------*/
 h1{
-  margin-top: 5%;
+  font-family: 'Patrick Hand', cursive;
+  margin-top: 10%;
   font-size: 4em;
 }
 
 h3{
-  font-size: 1em;
+  margin-top:1%;
+  font-family: 'Patrick Hand', cursive;
+  font-weight: bold;
 }
 
-img{
-  margin: 0 auto;
-  display: block;
-  padding: 3%;
-}
-#row1{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2%;
+aside h3{
+  font-size:2em;
+  margin-bottom: 1px;
 }
 
-#row2{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 5%;
-
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
 }
 
-#bottleH, #wasabiH, #fivehrH{
-  height: 10em;
-  width: auto;
-}
-
-#tissueH{
-  height: 8em;
-  width: auto;
-}
-
-#laptopH{
-  width: auto;
-  height: 8em;
-}
-
-#items{
-  flex: 100%;
-  max-width: 100%;
-}
-
-#bottleInfo{
-  opacity:0;
-}
-#wasabiInfo{
-  opacity:0;
-}
-#fivehrInfo{
-  opacity:0;
-}
-#laptopInfo{
-  opacity:0;
-}
-#tissueInfo{
-  opacity:0;
-}
-
-aside{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%
-  height: 100%;
-  display: block;
-}
-
-aside p{
-  width:50%;
+h1, h3{
   text-align: center;
-  margin: 0 auto;
 }
 
+nav{
+  margin-top: 3%;
+  margin-left: 7%;
+  margin-right: 5%;
+  width: 90%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 769px) {
-#container{
-  width: 80%;
-  margin-left: 15%;
-}
-
-h1{
-  margin-top: 5%;
-  font-size: 4em;
-}
-
-img{
+nav li{
   display: inline-block;
   vertical-align: middle;
-  padding: 3%;
+  padding-right: 7%;
 }
 
-
+/*SIZE OF THE IMAGES-------------------------------------------------------------------*/
 #bottleH, #wasabiH, #fivehrH{
   height: 10em;
   width: auto;
@@ -124,65 +63,98 @@ img{
   height: auto;
 }
 
+/*INFORMATION FOR IMAGES DISPLAYED-----------------------------------------------------*/
 #bottleInfo{
-  opacity:0;
-}
-#wasabiInfo{
-  opacity:0;
-}
-#fivehrInfo{
-  opacity:0;
-}
-#laptopInfo{
-  opacity:0;
-}
-#tissueInfo{
-  opacity:0;
-}
-
-aside{
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%
-  height: 100%;
-  display: block;
-}
-
-aside p{
-  width:50%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  height: 15%;
+  padding: 2%;
   text-align: center;
-  margin: 0 auto;
+  margin-top: 6%;
+  box-shadow: 0 0 8px 0;
+  display:none;
+  background-color: #d9c34a;
 }
 
-
-
-
-}
-
-/*General things*/
-#container{
-  position: relative;
-}
-
-header{
-  margin: 0 auto;
-}
-h1{
-  font-family: 'Patrick Hand', cursive;
-  font-weight: lighter;
-}
-
-h3{
- font-family: 'Roboto', sans-serif;
-}
-
-h1, h3{
+#wasabiInfo{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  height: 15%;
+  padding: 2%;
   text-align: center;
+  margin-top: 6%;
+  box-shadow: 0 0 8px 0;
+  display:none;
+  background-color: #73bf44;
 }
 
+#fivehrInfo{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  height: 15%;
+  padding: 2%;
+  text-align: center;
+  margin-top: 6%;
+  box-shadow: 0 0 8px 0;
+  display:none;
+  background-color: #f1b120;
+}
 
-/*Everything below is personal footer, dont need to touch*/
+#laptopInfo{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  height: 15%;
+  padding: 2%;
+  text-align: center;
+  margin-top: 6%;
+  box-shadow: 0 0 8px 0;
+  display:none;
+  color: white;
+  background-color: #232323;
+}
+
+#tissueInfo{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  height: 15%;
+  padding: 2%;
+  text-align: center;
+  margin-top: 6%;
+  box-shadow: 0 0 8px 0;
+  display:none;
+  background-color: #fcdada;
+}
+
+#bottleClose, #wasabiClose, #fivehrClose, #tissueClose, #laptopClose{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.show{
+  padding-top: 3%;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+/*EVERYTHING IN THE FOOTER--------------------------------------------------------------*/
 footer {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -190,15 +162,18 @@ footer {
   bottom: 0;
   position: fixed;
   width: 100%;
+  clear:left;
+  margin-left: -5%;
 }
 
-ul, li {
+footer ul, li {
   list-style-type: none;
+  padding-left: 5%;
+
 }
 
 a:link {
   text-decoration: none;
-  padding-left: 2%;
 }
 
 a:visited {
@@ -206,7 +181,7 @@ a:visited {
 }
 
 a:hover {
-  color: deeppink;
+  color: #22bdbe;
 }
 
 a:active {
@@ -215,4 +190,50 @@ a:active {
 
 a:last-child{
   margin:auto;
+}
+
+
+/*ADJUSTING TO SPECIFIC MEDIA SCREEN---------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {/*mobile phone*/
+h1{
+  margin-top: 15%;
+  font-size: 4em;
+}
+
+h3{
+  margin-top: -5%;
+  font-size: 1em;
+}
+
+nav{
+  margin-top: 10%;
+}
+
+li{
+  display: inline;
+  list-style-type:none;
+  padding-right: 45%;
+  margin-left: 7%;
+  margin-right: 1%;
+}
+
+#bottleH, #wasabiH, #fivehrH{
+  height: 10em;
+  width: auto;
+}
+
+#tissueH{
+  height: 8em;
+  width: auto;
+}
+
+#laptopH{
+  width: 8.5em;
+  height: auto;
+  padding-left:35%;
+}
+
+footer{
+    margin-left: 12%;
+}
 }

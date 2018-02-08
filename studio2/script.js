@@ -6,20 +6,21 @@ document.addEventListener("DOMContentLoaded", function(event){
   console.log("DOM fully loaded and parsed.");
 });
 
-//declares the images in the variables
+//DECLARING VARIABLES-----------------------------------------------------------
+var items = document.getElementById('items');
 var bottleH = document.getElementById('bottleH');
 var laptopH = document.getElementById('laptopH');
 var wasabiH = document.getElementById('wasabiH');
 var fivehrH = document.getElementById('fivehrH');
 var tissueH = document.getElementById('tissueH');
-var close1 = document.getElementById('close1');
-var close2 = document.getElementById('close2');
-var close3 = document.getElementById('close3');
-var close4 = document.getElementById('close4');
-var close5 = document.getElementById('close5');
+var bottleClose = document.getElementById('bottleClose');
+var laptopClose = document.getElementById('laptopClose');
+var wasabiClose = document.getElementById('wasabiClose');
+var fivehrClose = document.getElementById('fivehrClose');
+var tissueClose = document.getElementById('tissueClose');
 
 
-//hover for bottle
+//BOTTLE HOVER------------------------------------------------------------------
 bottleH.addEventListener('mouseover', function () {
     bottleH.style.opacity = 1;
     bottleH.src = 'images/bottle.png';
@@ -30,19 +31,19 @@ bottleH.addEventListener('mouseout', function () {
     bottleH.src = 'images/bottleH.png';
 });
 
-//bottle info
-bottleH.addEventListener('click', function() {
-  bottleInfo.style.opacity=1;
+//BOTTLE INFORMATION------------------------------------------------------------
+bottleH.addEventListener("click", function(){
+  bottleInfo.style.display="block";
 });
 
-close1.addEventListener('click', function () {
-  bottleInfo.style.opacity=0;
+bottleClose.addEventListener('click', function(){
+  bottleInfo.style.display='none';
 });
 
-//hover for wasabi
-wasabiH.addEventListener('mouseover', function () {
-    wasabiH.style.opacity = 1;
-    wasabiH.src = 'images/wasabi.png';
+//WASABI HOVER------------------------------------------------------------------
+wasabiH.addEventListener('mouseover', function(){
+  wasabiH.style.opacity = 1;
+  wasabiH.src = 'images/wasabi.png';
 });
 
 wasabiH.addEventListener('mouseout', function () {
@@ -50,20 +51,16 @@ wasabiH.addEventListener('mouseout', function () {
     wasabiH.src = 'images/wasabiH.png';
 });
 
-//wasabi info
-wasabiH.addEventListener('click', function() {
-  wasabiInfo.style.opacity=1;
+//WASABI INFORMATION------------------------------------------------------------
+wasabiH.addEventListener("click", function(){
+  wasabiInfo.style.display="block";
 });
 
-close2.addEventListener('click', function () {
-  wasabiInfo.style.opacity=0;
+wasabiClose.addEventListener('click', function(){
+  wasabiInfo.style.display='none';
 });
 
-
-
-
-
-//hover for 5hr energy
+//5HR HOVER---------------------------------------------------------------------
 fivehrH.addEventListener('mouseover', function () {
     fivehrH.style.opacity = 1;
     fivehrH.src = 'images/fivehr.png';
@@ -74,20 +71,16 @@ fivehrH.addEventListener('mouseout', function () {
     fivehrH.src = 'images/fivehrH.png';
 });
 
-//5hr info
-fivehrH.addEventListener('click', function() {
-  fivehrInfo.style.opacity=1;
+//5HR INFORMATION---------------------------------------------------------------
+fivehrH.addEventListener("click", function(){
+  fivehrInfo.style.display="block";
 });
 
-close3.addEventListener('click', function () {
-  fivehrInfo.style.opacity=0;
+fivehrClose.addEventListener('click', function(){
+  fivehrInfo.style.display='none';
 });
 
-
-
-
-
-//hover for laptop
+//LAPTOP HOVER------------------------------------------------------------------
 laptopH.addEventListener('mouseover', function () {
     laptopH.style.opacity = 1;
     laptopH.src = 'images/laptop.png';
@@ -98,18 +91,16 @@ laptopH.addEventListener('mouseout', function () {
     laptopH.src = 'images/laptopH.png';
 });
 
-//laptop info
-laptopH.addEventListener('click', function() {
-  laptopInfo.style.opacity=1;
+//LAPTOP INFORMATION------------------------------------------------------------
+laptopH.addEventListener("click", function(){
+  laptopInfo.style.display="block";
 });
 
-close4.addEventListener('click', function () {
-  laptopInfo.style.opacity=0;
+laptopClose.addEventListener('click', function(){
+  laptopInfo.style.display='none';
 });
 
-
-
-//hover for tissue
+//TISSUE HOVER------------------------------------------------------------------
 tissueH.addEventListener('mouseover', function () {
     tissueH.style.opacity = 1;
     tissueH.src = 'images/tissue.png';
@@ -120,11 +111,11 @@ tissueH.addEventListener('mouseout', function () {
     tissueH.src = 'images/tissueH.png';
 });
 
-//tissue info
-tissueH.addEventListener('click', function() {
-  tissueInfo.style.opacity=1;
+//TISSUE INFORMATION------------------------------------------------------------
+tissueH.addEventListener("click", function(){
+  tissueInfo.style.display="block";
 });
 
-close5.addEventListener('click', function () {
-  tissueInfo.style.opacity=0;
+tissueClose.addEventListener('click', function(){
+  tissueInfo.style.display='none';
 });
