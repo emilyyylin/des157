@@ -1,0 +1,58 @@
+/*GENERAL THINGS*/
+body{
+  background-image: url("images/background.jpg");
+  font-family: 'Quicksand', sans-serif;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #897442;
+}
+
+img {
+  width: 100%;
+}
+
+h1{
+  margin: auto;
+  font-size: 4em;
+}
+
+
+
+/*EVERYTHING IN THE FOOTER--------------------------------------------------------------*/
+footer {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75em;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  clear:left;
+  margin-left: -5%;
+  margin-bottom: 1%;
+}
+
+footer ul, li {
+  list-style-type: none;
+  padding-left: 5%;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #22bdbe;
+}
+
+a:active {
+  color: black;
+}
+
+a:last-child{
+  margin:auto;
+}
