@@ -28,7 +28,7 @@ window.addEventListener('resize',function(){
 })*/
 
 
-window.onload = choosePic;
+window.onclick = choosePic;
 
 var sushiArray = new Array("images/s1.png","images/s2.png","images/s3.png","images/s4.png","images/s5.png","images/s6.png","images/s7.png","images/s8.png","images/s9.png","images/s10.png","images/s11.png","images/s12.png");
 

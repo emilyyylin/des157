@@ -20,8 +20,10 @@ h1{
   font-size: 4em;
 }
 
-img[id*=elements]{
+#sushiTime{
 
+  width: 20%;
+  height: auto;
 }
 
 
