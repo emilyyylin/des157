@@ -1,11 +1,6 @@
 "use strict";
 console.log("testing");
 
-/*$("header img").click(function(){
-$  (this).fadeTo("slow", 0);
-
-});*/
-
 /*var sushiArray = [
   {image: "s1.png"},
   {image: "s2.png"},
