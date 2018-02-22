@@ -9,6 +9,19 @@ body{
   background-color: #897442;
 }
 
+#div1 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+img{
+  width: 25%;
+  height: 25%;
+  cursor: pointer;
+}
+
 /*img{
   width: 100%;
   height: 100%;
@@ -25,12 +38,7 @@ body{
 }
 */
 
-#sushiTime, #sushiTime2, #sushiTime3{
-  width: 25%;
-  height: 25%;
-}
-
-ul{
+/*ul{
   margin-left: auto;
   margin-right: auto;
   margin-top: 320px;
@@ -41,8 +49,7 @@ li{
   display: inline;
   margin-left: auto;
   margin-right: auto;
-}
-
+}*/
 
 
 /*EVERYTHING IN THE FOOTER--------------------------------------------------------------*/
