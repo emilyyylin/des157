@@ -9,7 +9,7 @@ background: url("images/inside.jpg") no-repeat center center fixed;
   background-color: #897442;
 }
 
-#div1{
+#div1, #div2{
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -17,16 +17,31 @@ background: url("images/inside.jpg") no-repeat center center fixed;
   padding: 130px;
 /*border: 1px solid #aaaaaa;*/
 }
+#drag1{
+  left: 30px;
+}
+
+#drag2{
+  left: 300px;
+}
+
+#drag3{
+  left: 600px;
+}
+
+#drag4{
+  left: 900px;
+}
 
 img{
   display: inline;
   float: left;
   padding-left: 20px;
   position: fixed;
-  width: 25%;
-  height: 25%;
+  width: 20%;
+  height: 20%;
   cursor: pointer;
-  margin-top: 260px;
+  margin-top: 290px;
 }
 
 /*img{
