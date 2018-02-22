@@ -1,4 +1,10 @@
 /*GENERAL THINGS*/
+#element-with-background-image {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('images/outside.jpg');
+}
+
 body{
 background: url("images/inside.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -34,9 +40,6 @@ background: url("images/inside.jpg") no-repeat center center fixed;
 }
 
 img{
-  display: inline;
-  float: left;
-  padding-left: 20px;
   position: fixed;
   width: 20%;
   height: 20%;
