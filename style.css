@@ -36,17 +36,32 @@ h2 {
 a {
   color: white;
   text-decoration: none;
+  font-size: 17px;
 }
 
 a:hover {
   color: #b1cee9;
 }
 
-#column1, #column2 {
+#column1, #column2{
   float: left;
   margin-left: 15%;
   margin-top: 20px;
 }
+
+#column3{
+  float: left;
+  margin-left: 5%;
+  margin-top: 34px;
+}
+
+ul, li {
+  list-style-type: none;
+  margin-top: 10px;
+  display: block;
+  line-height: 10px;
+}
+
 
 footer{
   position: fixed;
@@ -66,10 +81,4 @@ footer img:hover {
 
 footer img:last-child{
   margin:auto;
-}
-
-ul, li {
-  list-style-type: none;
-  margin-top: 10px;
-  display: block;
 }
