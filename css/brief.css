@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(#00c6c6, #008b8b, #005050, #002929);
+  color: white;
+  /*font-family: "Roboto";*/
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
+  margin-top: 100px;
+  margin-left: 15%;
+}
+
+#mySketch{
+  display: block;
+  width:100%;
+  max-width: 800px;
+  max-height: 250px;
+  margin-top: 10px;
+  margin-left: 15%;
+  border: 1px white solid;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:hover {
+  color: #b1cee9;
+}
+
+#column1, #column2{
+  float: left;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+
+#column3{
+  float: left;
+  margin-left: 5%;
+  margin-top: 34px;
+}
+
+ul, li {
+  list-style-type: none;
+  margin-top: 10px;
+  display: block;
+  line-height: 10px;
+}
+
+
+footer{
+  position: fixed;
+  bottom: 0;
+  margin-left: 15%;
+  margin-bottom: 25px;
+}
+
+footer img {
+  opacity: 0.3;
+  padding-right: 20px;
+}
+
+footer img:hover {
+  opacity: 1;
+}
+
+footer img:last-child{
+  margin:auto;
+}
