@@ -21,17 +21,23 @@ var div1 = document.querySelector("#div1");
 div1.addEventListener("drop", drop);
 div1.addEventListener("dragover", allowDrop);
 
-var drag1 = document.querySelector("#drag1");
-drag1.addEventListener("dragstart", drag);
+// var drag1 = document.querySelector("#drag1");
+// drag1.addEventListener("dragstart", drag);
+//
+// var drag2 = document.querySelector("#drag2");
+// drag2.addEventListener("dragstart", drag);
+//
+// var drag3 = document.querySelector("#drag3");
+// drag3.addEventListener("dragstart", drag);
+//
+// var drag4 = document.querySelector("#drag4");
+// drag4.addEventListener("dragstart", drag);
 
-var drag2 = document.querySelector("#drag2");
-drag2.addEventListener("dragstart", drag);
-
-var drag3 = document.querySelector("#drag3");
-drag3.addEventListener("dragstart", drag);
-
-var drag4 = document.querySelector("#drag4");
-drag4.addEventListener("dragstart", drag);
+// assumes all sushi are of class sushi
+var sushi = document.querySelectorAll('.sushi');
+for(let i = 0; i < sushi.length; i++) {
+  sushi[i].addEventListener("dragstart", drag);
+}
 
 /*window.onclick = choosePic;*/
 
