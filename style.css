@@ -36,7 +36,7 @@ h2 {
 a {
   color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 a:hover {
@@ -47,9 +47,10 @@ a:hover {
   float: left;
   margin-left: 15%;
   margin-top: 20px;
+  padding-right: -500px;
 }
 
-#column3{
+#column3, #column4{
   float: left;
   margin-left: 5%;
   margin-top: 34px;
