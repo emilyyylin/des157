@@ -5,11 +5,10 @@ html {
 }
 
 body {
-font-family: 'Quicksand', sans-serif;
+  position:fixed;
+  font-family: 'Quicksand', sans-serif;
   margin-left: 15%;
   margin-right: 15%;
-  margin-bottom: 15%;
-  margin-top: 15%;
   justify-content: center;
   align-items: center;
   width: 50%;
@@ -58,9 +57,9 @@ input[type="text"]:focus {
 
 button{
   outline: none;
-  height: 40px;
+  height: 30px;
   text-align: center;
-  width: 130px;
+  width: 90px;
   border-radius: 40px;
   background: #fff;
   border: 2px solid;
@@ -81,6 +80,28 @@ button:active{
 
 button:after{
   content: "SUBMIT"
+}
+
+/*******OVERLAY SHIT****/
+
+.hide{
+  display:none;
+}
+
+.show{
+  display: block;
+  z-index: 1;
+  top:0;
+  position: absolute;
+}
+
+.fade{
+  animation-name: displayFade;
+  animation-duration:1s;
+}
+
+#overlay{
+  margin-left:0;
 }
 
 /*****************ALL FOOTER INFORMATION**********************/
