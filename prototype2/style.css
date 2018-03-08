@@ -22,6 +22,33 @@ body {/*#e53535*/
   width: 100%;
 }
 
+.sideM {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu1, .menu2, .menu3{
+    width: 35px;
+    height: 5px;
+    background-color: #cf3721;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .menu1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .menu2 {
+  opacity: 0;
+}
+
+.change .menu3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
 h1{
   color: #ff0000;
   text-align: center;
