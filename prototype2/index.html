@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EMI | Prototype 1</title>
-  <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/normalize.css@7.0.0/normalize.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -16,8 +16,8 @@
   <div>
     <img src="images/logo.png" id="mainlogo" alt="EZPZ">
       <div class="btn-group">
-        <button id="login">LOG IN</button>
-        <button id="signup">SIGN UP</button>
+        <button id="login" onclick="myFunction()">LOG IN</button>
+        <button id="signup" onclick="myFunction()">SIGN UP</button>
       </div>
 
       <div>
@@ -32,6 +32,6 @@
 
       <span>this is supposed to be viewed in iPhone7 view</span>
   </div>
-
+  <script src="script.js"></script>
 </body>
 </html>
