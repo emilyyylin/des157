@@ -5,13 +5,14 @@
    /* declarations */
 }
 
+
 body {/*#e53535*/
   font-family: 'Quicksand', sans-serif;
   font-size: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 85%;
 }
 
 #mainlogo{
@@ -22,46 +23,7 @@ body {/*#e53535*/
   width: 100%;
 }
 
-.sideM {
-    display: inline-block;
-    cursor: pointer;
-}
-
-.menu1, .menu2, .menu3{
-    width: 35px;
-    height: 5px;
-    background-color: #cf3721;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-
-.change .menu1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .menu2 {
-  opacity: 0;
-}
-
-.change .menu3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-}
-
-h1{
-  color: #ff0000;
-  text-align: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  font-size:2.5vw;
-  font-weight: bold;
-  letter-spacing: 6px;
-}
-
-p{
-  font-size:0.5em;
-}
+/****************ZIP CODE FILL IN************/
 label {
   width: 80%;
   text-align: left;
@@ -87,15 +49,18 @@ input[type="text"]:focus {
   font-size: 1em;
 
 }
-
+/* IDKW EHRE THIS IS
 .container{
   width: 130px;
   height: 35px;
   text-align: center;
   padding: 5%;
+}*/
+
+/*****************LOG IN SIGN UP ENTER BUTTONS IN GENERAL**********/
+div .btn-group{
+  text-align: center;
 }
-
-
 .btn-group button{
   outline: none;
   height: 30px;
@@ -124,37 +89,7 @@ input[type="text"]:focus {
   content: "";
 }
 
-.navbar{
-  background-color: #cf3721;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  margin-left:-15%;
-  text-align: center;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: #cf3721;
-    text-align: center;
-    padding: 10px 13px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.navbar a:hover {
-    background-color: #f5be41;
-    color: black;
-}
-
-
-.navbar a.active {
-    background-color: #cf3721;
-    color: white;
-}
-
+/**************ENTER BUTTON TEXT DECORATION***********/
 a:link {
   text-decoration: none;
   color: white;
@@ -170,4 +105,39 @@ a:hover {
 
 a:active {
   color: white;
+}
+
+
+/************ BOTTOM FIXED MENU*******************/
+
+.navbar{
+  background-color: #cf3721;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left:-8%;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #cf3721;
+    padding: 10px 13px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #f5be41;
+    color: black;
+}
+
+
+.navbar a.active {
+    background-color: #cf3721;
+    color: white;
 }
