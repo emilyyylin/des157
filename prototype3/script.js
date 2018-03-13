@@ -2,7 +2,7 @@
 
 console.log('reading');
 
-//window.alert("designed for iPhone7 view!!");
+window.alert("please view in iPhone7 view!!")
 
 //ALL THE SHIT THAT DOESNT WORK YET
 function myFunction(){
