@@ -116,8 +116,7 @@ body {/*#e53535*/
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
-{
+#menu li{
   padding: 10px 0;
   font-size: 22px;
 }
@@ -125,9 +124,15 @@ body {/*#e53535*/
 /*
  * And let's slide it in from the left
  */
-#menuToggle input:checked ~ ul
-{
+#menuToggle input:checked ~ ul{
   transform: none;
+}
+
+/*************************PROFILE*********************/
+#prof{
+  text-align: center;
+  padding: 5em;
+
 }
 
 
@@ -135,15 +140,8 @@ body {/*#e53535*/
 #search{
   float: left;
   display: inline-block;
-  left: 10%;
+  /*margin-left: 14%;*/
 }
-
-
-
-
-
-
-
 
 
 
@@ -175,8 +173,8 @@ input[type="text"]:focus {
   border-bottom: 1px #ff0000 solid;
   color: black;
   font-size: 1em;
-
 }
+
 /* IDKW EHRE THIS IS
 .container{
   width: 130px;
@@ -273,4 +271,14 @@ transform: translate(-50%, -50%);
 .navbar a.active {
     background-color: #cf3721;
     color: white;
+}
+
+/**************************FOOD ITEMS********************/
+p{
+  font-size: 0.6em;
+  width: 95%;
+}
+
+#item{
+  text-align: center;
 }
