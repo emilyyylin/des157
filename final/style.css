@@ -24,39 +24,8 @@ h1{
 #slideshow {
 	height: 100%;
 	width: 100%;
-  padding-left: 1em;
-}
-
-.slideshow-title {
-	font-family: 'Allerta Stencil';
-	font-size: 62px;
-	color: #fff;
-	margin: 0 auto;
-	text-align: center;
-	margin-top: 25%;
-	letter-spacing: 3px;
-	font-weight: 300;
-}
-
-.sub-heading {
-	padding-top: 50px;
-	font-size: 18px;
-} .sub-heading-two {
-	font-size: 15px;
-} .sub-heading-three {
-	font-size: 13px;
-} .sub-heading-four {
-	font-size: 11px;
-} .sub-heading-five {
-	font-size: 9px;
-} .sub-heading-six {
-	font-size: 7px;
-} .sub-heading-seven {
-	font-size: 5px;
-} .sub-heading-eight {
-	font-size: 3px;
-} .sub-heading-nine {
-	font-size: 1px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .entire-content {
@@ -71,7 +40,7 @@ h1{
 	width: 100%;
 	position: absolute;
 	float: right;
-	animation: rotar 15s infinite linear;
+	animation: spiral 20s infinite linear;
 	transform-style: preserve-3d;
 }
 
@@ -117,14 +86,36 @@ h1{
 }
 
 .content-carrousel img:hover {
-	transform: scale(0.8); /*makes the image smaller*/
+	transform: scale(0.8); /*makes the image smaller when hover*/
 	transition: all 300ms;
 }
 
-@keyframes rotar {
+@keyframes spiral {
 	from {
 		transform: rotateY(0deg);
 	} to {
 		transform: rotateY(360deg);
 	}
+}
+
+/************ALL FOOTER INFORMATION DO NOT TOUCH****************/
+footer{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+footer img {
+  opacity: 0.3;
+  padding-left: 1em;
+}
+
+footer img:hover {
+  opacity: 1;
+}
+
+footer img:last-child{
+  margin:auto;
 }
