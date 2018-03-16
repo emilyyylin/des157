@@ -23,6 +23,9 @@ h1{
   animation: animatetop 1s
   }
 
+#arrowL, #arrowR{
+  padding: 5%;
+}
 
 #sushiMain{
   width: 20em;
