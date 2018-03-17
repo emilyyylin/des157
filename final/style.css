@@ -24,7 +24,8 @@ h1{
   }
 
 #arrowL, #arrowR{
-  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #sushiMain{
