@@ -7,6 +7,7 @@ html {
 body {
   background: #FF6666;
   background: linear-gradient(to bottom right, #FF6666, #FF9933);
+  background-repeat: no-repeat;
   color: white;
   /*font-family: "Roboto";*/
   font-family: 'Quicksand', sans-serif;
@@ -23,16 +24,39 @@ h1{
   animation: animatetop 1s
   }
 
+p{
+  font-size: 2.5vh;
+  position:relative;
+  animation: animatetop 1s;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  text-align: center;
+}
+
 #arrowL, #arrowR{
   padding-left: 10%;
   padding-right: 10%;
 }
 
-#sushiMain{
-  width: 20em;
+.sushiMain{
+  width: 18em;
   transform: translatey(0px);
   animation: float 3s ease-in-out infinite;
+  cursor: pointer;
   }
+
+#plus{
+  animation:none;
+}
+
+aside{
+  text-align: center;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
+  display: none;
+  padding: 2%;
+}
 
 @keyframes float {
 	0% {
