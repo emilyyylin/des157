@@ -2,16 +2,8 @@
 
 console.log("hello!");
 
-var salmon = document.getElementById('salmon');
-var tuna = document.getElementById('tuna');
-
-console.log("done with vars");
-
-//INGREDIENTS---------------------------------------------
-salmon.addEventListener("click", function(){
-  salmonInfo.style.display="block";
+//SALMON INGREDIENTS---------------------------------------------
+sushiMain.addEventListener('click', function(){
+  ingredient.style.display="block";
+  console.log("ingredients are displayed");
 });
-
-tuna.addEventListener('click', function(){
-  tunaInfo.style.display="block";
-})
