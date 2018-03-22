@@ -256,7 +256,12 @@ section{
   margin-right: auto;
 }
 
-#page1, #page2{
+#page1{
+  margin-top: 20%;
+  padding-top: 8%;
+}
+
+#page2{
   margin-top: 25%;
   padding-top: 8%;
 }
@@ -276,8 +281,7 @@ section{
 
 #nigiriClose, #sashimiClose, #temakiClose, #uramakiClose, #makiClose{
   cursor:pointer;
-  font-size:0.6em;
-  padding-bottom:1em;
+  font-size:0.9em;
 }
 
 #nigiriInfo, #sashimiInfo, #temakiInfo, #uramakiInfo, #makiInfo{
