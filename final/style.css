@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/**************     UNIVERSAL     *************/
 html {
   height: 100%;
   scroll-behavior: smooth;
@@ -22,30 +23,21 @@ h1{
   font-weight: bold;
   font-size:9.3vh;
   padding-top: 3%;
-  }
-
-  h3{
-    font-size: 6vh;
-  }
-
-  h4{
-    font-size: 5vh;
-  }
-
-  h5{
-    font-size: 3vh;
-  }
-
-#descrip{
-    font-size:2.75vh;
-    width: 55%;
-  }
-
-#title{
-  padding-top: 7%;
-  animation: float 3s ease-in-out infinite;
 }
 
+h3{
+  font-size: 6vh;
+}
+
+h4{
+  font-size: 5vh;
+}
+
+h5{
+  font-size: 3vh;
+}
+
+/**************     HOME PAGE FUN FACTS BUTTON     *************/
 div .btn-group{
   text-align: center;
   padding-bottom: -5em;
@@ -83,22 +75,105 @@ div .btn-group{
 }
 
 a:link {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a:visited {
-    text-decoration: none;
-    color:white;
+  text-decoration: none;
+  color:white;
 }
 
 a:hover {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:active {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+
+/***********************ROTATING THINGYYY************************/
+#slideshow {
+	height: 100%;
+	width: 100%;
+  margin: 0 auto;
+}
+
+.entire-content{
+	margin: auto;
+	width: 190px;
+	perspective: 1000px; /*slanted effect: increase becomes flat, decrease becomes stretched*/
+	position: relative;
+	padding-top: 80px;
+}
+
+.content-carrousel{
+	width: 100%;
+	position: absolute;
+	float: right;
+	animation: spiral 25s infinite linear; /*speed spinning: 1 is spinnnig really fast*/
+	transform-style: preserve-3d;
+}
+
+.content-carrousel:hover{
+	animation-play-state: paused;
+	cursor: pointer;
+}
+
+.content-carrousel figure{
+	width: 100%;
+	height: 90px; /*height of the individual boxes moving around*/
+	overflow: hidden;
+	position: absolute;
+}
+
+/*9 Images, increments by 40deg*/
+.content-carrousel figure:nth-child(1){
+	transform: rotateY(0deg) translateZ(300px);
+} .content-carrousel figure:nth-child(2){
+	transform: rotateY(40deg) translateZ(300px);
+} .content-carrousel figure:nth-child(3){
+	transform: rotateY(80deg) translateZ(300px);
+} .content-carrousel figure:nth-child(4){
+	transform: rotateY(120deg) translateZ(300px);
+} .content-carrousel figure:nth-child(5){
+	transform: rotateY(160deg) translateZ(300px);
+} .content-carrousel figure:nth-child(6){
+	transform: rotateY(200deg) translateZ(300px);
+} .content-carrousel figure:nth-child(7){
+	transform: rotateY(240deg) translateZ(300px);
+} .content-carrousel figure:nth-child(8){
+	transform: rotateY(280deg) translateZ(300px);
+} .content-carrousel figure:nth-child(9){
+	transform: rotateY(320deg) translateZ(300px);
+} .content-carrousel figure:nth-child(10){
+	transform: rotateY(360deg) translateZ(300px);
+}
+
+.content-carrousel img:hover{
+	transform: scale(0.8); /*makes the image smaller when hover*/
+	transition: all 300ms;
+}
+
+@keyframes spiral{
+	from {
+		transform: rotateY(0deg);
+	} to {
+		transform: rotateY(360deg);
+	}
+}
+
+/**************     INDIVIDUAL SUSHI DESCRIPTIONS     *************/
+#descrip{
+  font-size:2.75vh;
+  width: 55%;
+}
+
+#title{
+  padding-top: 7%;
+  animation: float 3s ease-in-out infinite;
 }
 
 p{
@@ -125,12 +200,8 @@ p{
   }
 
 .shadowfilter {
-    -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
-     filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
-}
-
-#plus{
-  animation:none;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
 }
 
 #ingredient{
@@ -138,11 +209,6 @@ p{
   transform: translatey(0px);
   animation: float 3s ease-in-out infinite;
   visibility: hidden;
-}
-
-section{
-  transform: translatey(0px);
-  animation: float 3s ease-in-out infinite;
 }
 
 aside img{
@@ -174,115 +240,18 @@ aside img{
       opacity:1}
     }
 
+/**************     FUN FACTS     *************/
 
-/***********************ROTATING THINGYYY************************/
-#slideshow {
-	height: 100%;
-	width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
+section{
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
 }
 
-.entire-content {
-	margin: auto;
-	width: 190px;
-	perspective: 1000px;
-	position: relative;
-	padding-top: 80px;
-}
-
-.content-carrousel {
-	width: 100%;
-	position: absolute;
-	float: right;
-	animation: spiral 20s infinite linear;
-	transform-style: preserve-3d;
-}
-
-.content-carrousel:hover {
-	animation-play-state: paused;
-	cursor: pointer;
-}
-
-.content-carrousel figure {
-	width: 100%;
-	height: 90px;
-	overflow: hidden;
-	position: absolute;
-}
-
-.content-carrousel figure:nth-child(1) {
-	transform: rotateY(0deg) translateZ(300px);
-} .content-carrousel figure:nth-child(2) {
-	transform: rotateY(40deg) translateZ(300px);
-} .content-carrousel figure:nth-child(3) {
-	transform: rotateY(80deg) translateZ(300px);
-} .content-carrousel figure:nth-child(4) {
-	transform: rotateY(120deg) translateZ(300px);
-} .content-carrousel figure:nth-child(5) {
-	transform: rotateY(160deg) translateZ(300px);
-} .content-carrousel figure:nth-child(6) {
-	transform: rotateY(200deg) translateZ(300px);
-} .content-carrousel figure:nth-child(7) {
-	transform: rotateY(240deg) translateZ(300px);
-} .content-carrousel figure:nth-child(8) {
-	transform: rotateY(280deg) translateZ(300px);
-} .content-carrousel figure:nth-child(9) {
-	transform: rotateY(320deg) translateZ(300px);
-} .content-carrousel figure:nth-child(10) {
-	transform: rotateY(360deg) translateZ(300px);
-}
-
-.content-carrousel img:hover {
-	transform: scale(0.8); /*makes the image smaller when hover*/
-	transition: all 300ms;
-}
-
-@keyframes spiral {
-	from {
-		transform: rotateY(0deg);
-	} to {
-		transform: rotateY(360deg);
-	}
-}
-
-/************FUN FACTS NAVAIGATION******************************/
-/* nav and list styles */
-nav {
-  padding-top: 13%;
-  text-align: center;
-  margin: 0 auto;
-  font-family: 'Quicksand', sans-serif;
-}
-
-li {
-  padding: 0.75%;
-  display: inline-block;
-  border: 2px white solid;
-  margin-right: 2%;
-  text-align: center;
-  font-size:0.80em;
-  border-radius: 25px;
-  letter-spacing: 2px;
-  font-family: 'Raleway', sans-serif;
-}
-
-ol li {
-  letter-spacing: 1.5px;
-  padding-bottom: 1%;
-  margin-left: 0;
-  padding-left: 0;
-  font-size: 0.75em;
-}
-
-
-/* fade animation */
 .fade {
   animation-name: displayFade;
   animation-duration:4s;
 }
 
-/* page height for scrolls */
 .page{
   height: 100%;
   width: 100%;
@@ -293,6 +262,12 @@ ol li {
 #page1, #page2{
   margin-top: 25%;
   padding-top: 8%;
+}
+
+#page3{
+  margin-top:25%;
+  padding-top: 5%;
+  margin-bottom:20%;
 }
 
 #nigiri, #sashimi, #temaki, #uramaki, #maki{
@@ -312,69 +287,68 @@ ol li {
   display:none;
 }
 
-#page3{
-  margin-top:25%;
-padding-top: 5%;
-margin-bottom:20%;
-}
-
 span #facts{
   padding-top: -20px;
   animation: animatetop 1s;
   width: 50%;
 }
 
-/* scroll menu */
-.dotnav-right {
-    right: 2%;
-    top: 50%;
-    margin-top: -50px;
-    height: 100px;
-    z-index: 999;
-    position: fixed;
-  }
+/**************     SCROLL MENU     *************/
 
-.dotnav {
-    padding: 0;
-    list-style: none;
-    font-size: 0.001px;
-  }
+li{
+  padding: 0.75%;
+  display: inline-block;
+  border: 2px white solid;
+  margin-right: 2%;
+  border-radius: 20px;
+}
 
-.dotnav li:nth-child(n+2) {
-    margin-left: 15px;
-  }
+.dotnav-right{
+  right: 2%;
+  top: 50%;
+  margin-top: -50px;
+  height: 100px;
+  z-index: 999;
+  position: fixed;
+}
 
-.dotnav li a {
-    display: inline-block;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    width: 10px;
-    height: 10px;
-    border-radius: 21px;
-    vertical-align: top;
-    padding: 0;
-  }
+.dotnav{
+  padding: 0;
+  list-style: none;
+  font-size: 0.001px;
+}
 
-.dotnav li  a:hover, .dotnav li a:focus {
-    background: white;
-  }
+.dotnav li:nth-child(n+2){
+  margin-left: 15px;
+}
 
-.dotnav li a:active {
-    background: white;
-  }
+.dotnav li a{
+  display: inline-block;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 10px;
+  height: 10px;
+  border-radius: 21px;
+  vertical-align: top;
+  padding: 0;
+}
 
-.dotnav-vertical li {
-    display: block;
-    margin-right:10px;
-  }
+.dotnav li  a:hover, .dotnav li a:focus, .dotnav li a:active{
+  background: white;
+}
 
-.dotnav-vertical li:nth-child(n+2) {
-    margin-left: 0;
-    margin-top: 10px;
-  }
+.dotnav-vertical li{
+  display: block;
+  margin-right:10px;
+}
 
+.dotnav-vertical li:nth-child(n+2){
+  margin-left: 0;
+  margin-top: 10px;
+}
 
-/************ALL FOOTER INFORMATION DO NOT TOUCH****************/
+  /**************     UNIVERSAL NAV FOOTER      *************/
+
 nav{
   text-align: center;
   margin-top:1em;
