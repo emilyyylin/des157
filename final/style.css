@@ -287,7 +287,7 @@ section{
   display:none;
 }
 
-span #facts{
+p #facts{
   padding-top: -20px;
   animation: animatetop 1s;
   width: 50%;
