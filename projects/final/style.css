@@ -281,7 +281,7 @@ section{
 
 #nigiriClose, #sashimiClose, #temakiClose, #uramakiClose, #makiClose{
   cursor:pointer;
-  font-size:0.9em;
+  font-size:1em;
 }
 
 #nigiriInfo, #sashimiInfo, #temakiInfo, #uramakiInfo, #makiInfo{
