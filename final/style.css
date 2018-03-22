@@ -105,6 +105,11 @@ p{
   cursor: pointer;
   }
 
+#close{
+  cursor: pointer;
+
+}
+
 .shadowfilter {
     -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
      filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
@@ -302,7 +307,11 @@ ol li {
   cursor: pointer;
 }
 
-#nigiriInfo{
+#nigiriClose, #sashimiClose, #temakiClose, #uramakiClose, #makiClose{
+  cursor:pointer;
+}
+
+#nigiriInfo, #sashimiInfo, #temakiInfo, #uramakiInfo, #makiInfo{
   display:none;
 }
 
