@@ -7,34 +7,82 @@
   <link href="https://cdn.jsdelivr.net/npm/normalize.css@7.0.0/normalize.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
+	<link rel="shortcut icon" id="favicon" href="../images/tuna.png">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
 </head>
 
-<body>
-<nav>
-  <a href="../index.html"><img src="../images/home_icon.png" alt="Home" width=30 height=30></a>
+<body class="fade">
+<article class='page' id='page0'>
+  <nav>
+    <a href="../index.html"><img src="../images/home_icon.png" alt="Home" width=30 height=30></a>
+  </nav>
+
+  <h1 id="title">FUN FACTS</h1>
+    <p>Here are some things that you might not know about sushi! <br><br></p>
+
+  <section>
+    <img src="../images/ikuratama.svg" class="shadowfilter" width=100>
+    <img src="../images/roll.svg" class="shadowfilter" width=100>
+    <img src="../images/tamago.svg" class="shadowfilter" width=100>
+    <img src="../images/salmon.svg" class="shadowfilter" width=100>
+    <img src="../images/tuna.svg" class="shadowfilter" width=100>
+  </section><br>
+  <section>
+    <img src="../images/shrimp.svg" class="shadowfilter" width=100>
+    <img src="../images/cuttlefish.svg" class="shadowfilter" width=100>
+    <img src="../images/tobiko.svg" class="shadowfilter" width=100>
+    <img src="../images/octopus.svg" class="shadowfilter" width=100>
+  </section>
+
+</article>
+
+<!---SCROLL BAR MENU-->
+<nav id="sideNav" class="">
+  <ul class="dotnav dotnav-vertical dotnav-right nav">
+      <li title="Home" id='Page0'><a href="#page0"></a></li>
+      <li title="About" id='Page1'><a href="#page1"></a></li>
+      <li title="Research" id='Page2'><a href="#page2"></a></li>
+      <li title="Instructions" id='Page3'><a href="#page3"></a></li>
+  </ul>
 </nav>
 
-<h1 id="title">FUN FACTS</h1>
+<!-- PAGE 1 -->
+<article class='page' id='page1'>
+  <h2>SUSHI, SASHIMI, NIGIRI.... WHAT?!</h2>
+  <img src="../images/nigiri.svg" class="shadowfilter" id="nigiri" width=150>
+  <img src="../images/sashimi.svg" class="shadowfilter" id="sashimi" width=150>
+  <img src="../images/maki.svg" class="shadowfilter" id="maki" width=150>
+  <img src="../images/uramaki.svg" class="shadowfilter" id="uramaki" width=150>
+  <img src="../images/temaki.svg" class="shadowfilter" id="temaki" width=150>
+
+  <aside id="nigiriInfo">
+    <div id="nigiriClose">&otimes;</div>
+    <h3>NIGIRI<h3>
+      <p>Nigiri is raw fish over rice. Usually, there is some paste chefs use to make sure the raw fish stays on top, sometimes they use wasabi. Sometimes restaurants only offer nigiri because customers can be full off of eating the chunk of rice (and they charge customers for leaving rice behind)! //Sneaky!!!</p>
+  </aside>
 
 
 
 
+</article>
 
+<article class='page' id='page2'>
+  <h3>HEALTH</h3>
+  <p>Certain colors are associated with certain moods and have the power to affect the emotional and mental state of people. Music is also a common source of relaxation for people that feel a need to destress and relieve themselves of anxiety or negative emotions. These findings bring forth the question of how music and color can work together to create a soothing yet effective and powerful way for people to connect with their emotions in a way that brings forth visual creativity.</p>
+</article>
 
-
-
-
-
-
+<article class='page' id='page3'>
+  <h3>SOMETHING</h3>
+  <p>Certain colors are associated with certain moods and have the power to affect the emotional and mental state of people. Music is also a common source of relaxation for people that feel a need to destress and relieve themselves of anxiety or negative emotions. These findings bring forth the question of how music and color can work together to create a soothing yet effective and powerful way for people to connect with their emotions in a way that brings forth visual creativity.<br><br></p>
+</article>
 
 
 <footer>
-      <a href="#"><img src="images/github_icon.png" alt="Github Icon" width=30 height=30></a>
-      <a href="https://validator.w3.org/check?uri=referer"><img src="images/html_icon.png" alt="Validate HTML Icon" width=30 height=30></a>
-      <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/css_icon.png" alt="Validate CSS Icon" width=30 height=30></a>
+      <a href="#"><img src="../images/github_icon.png" alt="Github Icon" width=30 height=30></a>
+      <a href="https://validator.w3.org/check?uri=referer"><img src="../images/html_icon.png" alt="Validate HTML Icon" width=30 height=30></a>
+      <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="../images/css_icon.png" alt="Validate CSS Icon" width=30 height=30></a>
 </footer>
 
-<script src="script.js"></script>
+<script src="../script.js"></script>
 </body>
 </html>
