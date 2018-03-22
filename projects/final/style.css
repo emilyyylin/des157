@@ -163,7 +163,7 @@ a:active {
 }
 
 /**************     INDIVIDUAL SUSHI DESCRIPTIONS     *************/
-#descrip{
+.descrip{
   font-size:2.75vh;
   width: 55%;
 }
@@ -284,7 +284,7 @@ section{
   display:none;
 }
 
-p #facts{
+p .facts{
   animation: animatetop 1s;
   width: 50%;
 }
