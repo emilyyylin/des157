@@ -38,36 +38,19 @@ h5{
 }
 
 /**************     HOME PAGE FUN FACTS BUTTON     *************/
-div .btn-group{
-  text-align: center;
-}
-.btn-group button{
+.btn{
   outline: none;
   height: 30px;
-  width: 100px;
+  width: 200px;
   text-align: center;
   border-radius: 40px;
   background: none;
   color: white;
+  padding: 12px;
   border: 1px solid;
-  font-size: 12px;
+  font-size: 2vh;
   font-weight: bold;
   cursor: pointer;
-  text-decoration: none;
-}
-
-.btn-group button:hover{
-  background: white ;
-  text-decoration: none;
-}
-
-.btn-group button:active{
-  letter-spacing: 2px;
-  text-decoration: none;
-}
-
-.btn-group:after{
-  content: "";
   text-decoration: none;
 }
 
@@ -79,6 +62,7 @@ a:link {
 a:visited {
   text-decoration: none;
   color:white;
+    content: "";
 }
 
 a:hover {
@@ -88,8 +72,8 @@ a:hover {
 
 a:active {
   text-decoration: none;
+  letter-spacing: 2px;
 }
-
 
 /***********************ROTATING THINGYYY************************/
 #slideshow {
