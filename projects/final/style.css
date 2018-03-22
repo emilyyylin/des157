@@ -40,7 +40,6 @@ h5{
 /**************     HOME PAGE FUN FACTS BUTTON     *************/
 div .btn-group{
   text-align: center;
-  padding-bottom: -5em;
 }
 .btn-group button{
   outline: none;
@@ -51,8 +50,6 @@ div .btn-group{
   background: none;
   color: white;
   border: 1px solid;
-  font-style: #e53535;
-  text-spacing: 9px;
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
@@ -288,7 +285,6 @@ section{
 }
 
 p #facts{
-  padding-top: -20px;
   animation: animatetop 1s;
   width: 50%;
 }
